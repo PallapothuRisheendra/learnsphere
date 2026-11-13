@@ -1,0 +1,24 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java / Maven
+backend/target/
+*.log
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local reports and scratch material
+/outputs/
+/work/
